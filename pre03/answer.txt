@@ -1,0 +1,25 @@
+4.11 Exercise 1
+1. When "baffle" is called it prints "wug" and then calls "ping".
+   When "ping" is called it prints "." then creates a newline.
+
+  The output of this program is as follows:
+    No, I wug.
+    You wugga wug.
+    I wug.
+
+    First, main prints "No, I " with a space after I. Then, zoop is called invoking baffle, which prints "wug". Next, ping is invoked, which prints "." 
+
+    Since println is used, it creates a new line, "You wugga " with a space after wugga, baffle is invoked, which prints "wug", and ping is invoked, which prints "." 
+
+    A new is created, main prints "I " followed by a space, baffle is invoked, which prints "wug", ping is invoked, which prints ".".
+
+  2. Stack diagram as follows:
+    main
+      zoop
+        baffle
+          ping
+        baffle
+          ping
+      baffle
+
+3. If you invoke baffle(); at the end of the ping method, this would continue endlessly because it call itself continuously.

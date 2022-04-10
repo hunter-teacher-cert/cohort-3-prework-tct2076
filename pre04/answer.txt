@@ -1,0 +1,26 @@
+Exercise 1
+if (x > 0 && x < 10) {
+    System.out.println("positive single digit number.");
+    }
+
+Exercise 2 Stack Diagram
+  main
+  zoop
+  ping
+  clink
+  zoop
+
+Exercise 2 The complete output is
+just for
+any not more
+It's breakfast
+!
+
+Exercise 3 Stack Diagram
+  main
+  countdown n 4
+  countdown n 3
+  countdown n 2
+  countdown n 1
+  countdown n 0
+
